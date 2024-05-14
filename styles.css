@@ -141,7 +141,7 @@ footer {
     }
     
     .main-content {
-        max-width: 100%; /* Adjust max-width for smaller screens */
+        max-width: 90%; /* Adjust max-width for smaller screens */
     }
     .container {
         background-size: cover;
