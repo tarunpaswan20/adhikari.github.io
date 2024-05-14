@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahnavi Adhikari - Portfolio</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>Jahnavi Adhikari</h1>
+        <a href="https://www.instagram.com/jahnavi._.adhikari/?__d=1%3Futm_source%3Dig_embed" target="_blank" class="instagram-link">
+            <img src="Instagram N Png - Free PNG Images ID 38388 png - Free PNG Images.jpeg" alt="Instagram" class="instagram-icon">
+        </a>
+    </div>
+</header>
+
+<main>
+    <div class="blurry-background"></div>
+    <div class="main-content">
+        <div class="text-content">
+            <h2>Discover Your Next Look</h2>
+            <p>Elevate your presence with professional model profiles tailored to perfection</p>
+            <a href="#portfolio" class="portfolio-button">View Portfolio</a>
+        </div>
+        <!-- Remove the image-container div and place the image directly inside main -->
+        <img src="portfolio-image.jpg" alt="Portfolio Image">
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Jahnavi Adhikari. All rights reserved.</p>
+</footer>
+
+</body>
+<script>
+    // Show footer when scrolling down
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 50) { // Adjust this value as needed
+        document.querySelector('footer').classList.add('show-footer');
+    } else {
+        document.querySelector('footer').classList.remove('show-footer');
+    }
+});
+</script>
+</html>
