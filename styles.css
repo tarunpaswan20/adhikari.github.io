@@ -61,8 +61,8 @@ header h1 {
 
 /* Style the main content */
 main {
-    padding: 20px;
-    position: absolute;
+    padding: 10px;
+    position: relative;
     top: 50%; /* Center the main content vertically */
     left: 50%; /* Center the main content horizontally */
     transform: translate(-50%, -50%); /* Centering trick */
