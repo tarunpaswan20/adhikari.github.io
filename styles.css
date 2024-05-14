@@ -126,7 +126,14 @@ footer {
     }
     
     main {
-        padding-top: 60px; /* Adjust padding to make room for header */
+          padding: 20px;
+            position: absolute;
+            top: 50%;
+            /* Center the main content vertically */
+            left: 50%;
+            /* Center the main content horizontally */
+            transform: translate(-50%, -50%);
+            /* Centering trick */
     }
     
     .main-content {
