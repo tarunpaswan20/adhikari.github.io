@@ -119,7 +119,7 @@ footer {
 }
 
 /* Media queries for responsiveness */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     /* Adjustments for smaller screens */
     header h1 {
         font-size: 1.2rem; /* Decrease font size for smaller screens */
